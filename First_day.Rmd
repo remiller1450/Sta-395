@@ -1,5 +1,5 @@
 ---
-title: "Applied Data Science - Icebreaker"
+title: "Applied Data Science - First Day Icebreaker"
 output: html_document
 ---
 
@@ -11,29 +11,34 @@ knitr::opts_chunk$set(echo = TRUE)
 
 In this class, it is presumed you are already familiar with: 
 
-- at least one programming language (`R` or Python)
-- basic data visualizations (barcharts, scatterplots, boxplots, histograms, etc.)
-- fundamental statistical concepts (data collection, random chance, probability, etc.)
+- at least one programming language (either `R` or Python)
+- basic data visualizations (bar charts, scatterplots, boxplots, histograms, etc.)
+- fundamental statistical concepts (bias, confounding, probability, random chance, etc.)
+- basic statistical methods (descriptive statistics, regression, etc.)
 
-That said, you may be a little rusty on one or more of these.  This activity is aimed at providing you an opportunity to get to know your classmates and refresh your skills.
+That said, it is okay if you are a little rusty in one or more of these.  This activity will provide an opportunity for you to get to know your classmates and refresh yourself on the aforementioned topics.
 
 ### Directions
 
-You will work in a group of 3 and will be given 15 minutes to construct a data visualization and/or summary table supporting your response to a research question.  This is not very much time, so your group should strive to work efficiently.
+You will work in a group of 3 and will be given 15 minutes to construct a data visualization and/or summary table supporting your response to a research question.  Note that this is an intentionally short amount of time, so your group should work efficiently.
 
-In addition to creating your visual(s) and an accompanying explain, you should also be prepared to discuss how your team approached the research question, such as: what did you do first?, how did you divide tasks?, were there areas where you coud have been efficient?, were there areas where you should have spent more time?
+In addition to creating your visual(s)/table(s) and crafting an answer to the research question, you should also be prepared to discuss how your team approached the task, such as: where did you start? how did you divide tasks? were there areas where you could have been efficient? were there areas where you should have spent more time?
 
 ### Prompt
 
-You work as a data analyst for a large university and are tasked with preparing the university's administration for possible ligation regarding potential discrimination in the addimisions to it's graduate programs. For the first portion of your analysis you are to look at gender discrimination.  In particular you seek to the research answer: *is there evidence of gender discrimination in the university's graduate program admissions?*
+You work as a data analyst for a large university and are tasked with preparing the university's administration for possible ligation regarding potential discrimination in the admissions to its graduate programs. In relation to this task, your analysis is to evaluate possible gender discrimination.  In particular you seek to the research answer: *is there evidence of gender discrimination in the university's graduate program admissions?*
 
 To answer this question your group should:
 
 - Prepare 1 or more visuals that clearly illustrate the important trends in the data
-- Prepare recommendations for the university's administration based upon your findings 
+- Prepare an executive summary of your recommendations to the university's administration based upon your findings 
 
 ### The Data
 
 [Click here](https://remiller1450.github.io/data/GradAdm.csv) to download the dataset, which contains the following variables:
 
-- 
+- app_ID - a unique identifier of the applicant
+- dept - graduate department to which the applicant applied
+- sex - sex of the applicant
+- un_gpa - undergraduate grade-point average of the applicant
+- admit - whether the applicant was admitted

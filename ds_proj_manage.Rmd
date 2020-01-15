@@ -1,0 +1,99 @@
+---
+title: "Project Management and Data Science"
+author: "Ryan Miller"
+output: beamer_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Organizational Structure
+
+\includegraphics[width=1\textwidth]{fig/org.png}
+
+## Data Science "pipelines" and "life-cycles"
+
+- The data science work-flow takes place within the organizational framework
+- While "Data science" is oft used, its definitions vary
+    - [Click here](https://remiller1450.github.io/s395s20/Using_Data.html) to see some examples of this
+  
+## CRISP-DM
+
+We'll adopt the Cross-Industry Standard Process for Data Mining (CRISP-DM) model:
+
+\begin{center}
+\includegraphics[width=0.67\textwidth]{fig/crisp_process.png}
+\end{center}
+
+## Phase 1 - Business Understanding
+
+Tasks:
+
+1) Gather necessary [background information](https://www.ibm.com/support/knowledgecenter/SS3RA7_15.0.0/com.ibm.spss.crispdm.help/crisp_business_criteria.htm)
+2) Document specific [specific objectives](https://www.ibm.com/support/knowledgecenter/SS3RA7_15.0.0/com.ibm.spss.crispdm.help/crisp_business_objectives.htm)
+3) Determine [success criteria](https://www.ibm.com/support/knowledgecenter/SS3RA7_15.0.0/com.ibm.spss.crispdm.help/crisp_success_criteria_business.htm) for the project
+
+Each of these tasks should be undertaken in coordination with the client 
+
+## Phase 1 - Objective vs. Subjective Success Criteria
+
+- You should have a mixture of objective and subjective success criteria
+    - Objective = "Increase the time visiters spend on the destinations page by 10%"
+    - Subjective = "Identify customer clusters"
+    
+## Phase 2 - Data Understanding
+
+Tasks:
+
+1) [Describing](https://www.ibm.com/support/knowledgecenter/SS3RA7_15.0.0/com.ibm.spss.crispdm.help/crisp_describe_data.htm) the data
+2) [Exploring](https://www.ibm.com/support/knowledgecenter/SS3RA7_15.0.0/com.ibm.spss.crispdm.help/crisp_explore_data.htm) the data
+3) [Verifying data quality](https://www.ibm.com/support/knowledgecenter/SS3RA7_15.0.0/com.ibm.spss.crispdm.help/crisp_verify_data_quality.htm)
+
+These tasks should be carried out at the team level (and cross-referenced with the principal and client if necessary)
+
+## Phase 3 - Data Preparation
+
+Tasks:
+
+- Merging/joining (ie: `left_join`)
+- Selecting relevant subsets (ie: `filter`)
+- Aggregating records (ie: `group_by` and `summarize`)
+- Deriving new attributes (ie: `mutate`)
+- Handling missing data (ie: `complete.cases` or `knnImput`/`rfImpute`)
+
+These tasks should be carried out at the team level and cross-referenced by the principal (they are seldom relevant to the client at this point)
+
+## Phase 4 - Modeling 
+
+Tasks:
+
+- [Selecting](https://www.ibm.com/support/knowledgecenter/SS3RA7_15.0.0/com.ibm.spss.crispdm.help/crisp_select_model_technique.htm) a model
+- [Evaluating the "goodness"](https://www.ibm.com/support/knowledgecenter/SS3RA7_15.0.0/com.ibm.spss.crispdm.help/crisp_generate_test_design.htm) of a model
+- [Building](https://www.ibm.com/support/knowledgecenter/SS3RA7_15.0.0/com.ibm.spss.crispdm.help/crisp_build_model.htm) the model
+- Note: you may replace "model" with "product" in some applications
+
+This phase is highly non-linear, it should be carried out at the team level and cross-referenced by the principal (and possibly with the client depending on their level of technical proficiency)
+
+## Phase 5 - Evaluation 
+
+Tasks:
+
+1) Consider your model/product in regards to the business success criteria you came up with in Phase 1
+2) Formalize your findings
+
+These tasks should be undertaken in coordination with the client and principal
+
+## Phase 6 - Deployment
+
+Tasks:
+
+1) Deliver your model/product to the client
+2) Complete wrap-up tasks (ie: technical report, etc.)
+
+## Practice
+
+
+
+
+
