@@ -1,0 +1,24 @@
+---
+title: "Sta-395 - First Day Debrief"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### An Example Solution
+
+```{r}
+## Add graph code here
+```
+
+> Add text here
+
+### Simpson's Paradox
+
+"Simpson's Paradox is a phenomenon in probability and statistics, in which a trend appears in several different groups of data but disappears or reverses when these groups are combined. This result is often encountered in social-science and medical-science statistics and is particularly problematic when frequency data is unduly given causal interpretations. The paradox can be resolved when causal relations are appropriately addressed in the statistical modeling. Simpson's paradox has been used as an exemplar to illustrate to the non-specialist or public audience the kind of misleading results mis-applied statistics can generate." -  [Source](https://en.wikipedia.org/wiki/Simpson%27s_paradox)
+
+### Takeaway
+
+Imagine you didn't have the variable `dept` in the data you collected. The conclusions of your analysis wouldn't reflect reality.  As a statistician and data scientist it is *your job* (not your collaborators!) to be aware of this possibility.  You need to learn enough background information about the data and topic you are studying in order to be able to anticipate these variables.

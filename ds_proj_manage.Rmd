@@ -1,7 +1,11 @@
 ---
 title: "Project Management and Data Science"
 author: "Ryan Miller"
-output: beamer_presentation
+output: 
+  beamer_presentation:
+    colortheme: "beaver"
+    includes:
+      in_header: pres_header.tex
 ---
 
 ```{r setup, include=FALSE}
@@ -16,7 +20,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 - The data science work-flow takes place within the organizational framework
 - While "Data science" is oft used, its definitions vary
-    - [Click here](https://remiller1450.github.io/s395s20/Using_Data.html) to see some examples of this
+    - [Click here](https://remiller1450.github.io/s395s20/ds_proj_pipe.pdf) to see some examples of this
   
 ## CRISP-DM
 
@@ -38,9 +42,9 @@ Each of these tasks should be undertaken in coordination with the client
 
 ## Phase 1 - Objective vs. Subjective Success Criteria
 
-- You should have a mixture of objective and subjective success criteria
-    - Objective = "Increase the time visiters spend on the destinations page by 10%"
-    - Subjective = "Identify customer clusters"
+- You may choose to have a mixture of objective and subjective success criteria
+    - Objective = "Increase the time visiters spend on the landing page by 10%"
+    - Subjective = "Identify customer clusters for targeted marketing"
     
 ## Phase 2 - Data Understanding
 
@@ -91,9 +95,68 @@ Tasks:
 1) Deliver your model/product to the client
 2) Complete wrap-up tasks (ie: technical report, etc.)
 
-## Practice
+## Practice #1
+
+For the following scenario determine:
+
+A) Which phase the described actions fall under
+B) Where you'd go next (and why)
+
+> A project is using medical records to build a model to predict A1c levels using more readily available measures such as blood pressure, age, weight, and waist circumference.  Using the `is.na` function in `R`, it is discovered that 88% of the available records do not have an A1c measurement.
 
 
+## Practice #1 - Possible Answers
+
+- This scenario occured during the Data Understanding phase
+- It is possible that the 12% of medical records with A1c provides a reasonable dataset, in this case the next step would be Data Preparation (filtering out the missing data and preparing the other variables)
+- It is also possible that relying on only 12% of the available records is infeasible or will induce bias into the analysis, in this case the next step would be Business Understanding (reviewing the original goals and making adjustments)
+
+## Practice #2
+
+For the following scenario determine:
+
+A) Which phase the described actions fall under
+B) Where you'd go next (and why)
+
+> In the aforementioned project you fit a linear regression model containing several variables, you receive the following model diagnostics from your software
+
+```{r, fig.height = 4}
+set.seed(1234)
+
+x <- rnorm(500)
+y4 <- (.1 * x) + rnorm(500)
+y1 <- 2 * x + rnorm(500)
+y2 <- 2 * x + - (.5 * x^2) + rnorm(500)
+y3 <- exp(.5 * x + rnorm(500))
+
+# put data into dataframe to organize results
+df <- data.frame(x, y1, y2, y3, y4)
+
+# run regressions
+regs <- lapply(df[-1], function(y) lm(y ~ x, data=df))
+
+par(mfrow = c(1,2))
+plot(regs$y2, which = 1:2)
+```
 
 
+## Practice #2 - Possible Answers
+
+- This scenario occured during the Modeling phase
+- Linear regression doesn't appear to be an appropriate model based upon these diagnostics.  It seems that a quadratic effect is being missed (hence the large negative residuals for high/low fitted values). The QQ-plot also calls into question whether the residuals are normally distributed (not a disaster for model fitting, but a problem for statistical inference)
+    - For these reasons the logical next step is to return to the Data Prepartion phase and explore variable transformations that might address these issues
+
+## Practice #3 
+
+For the following scenario determine:
+
+A) Which phase the described actions fall under
+B) Where you'd go next (and why)
+
+> After revising the linear regression model in the previous example, a final model is chosen and is applied a "test set" of 100 new records that occured after the original dataset was finalized. The model predicts A1c within 10% of the actual value for 86% of these new records.
+
+## Practice #3 - Possible Answers
+
+- This scenario occured in the Evaluation phase
+- Where to go next *depends upon the project's business goals*.  If predicting A1c within 10% of the actual value for 86% of cases satisfies the previously established goals, the model is suitable for the Deployment phase.  Otherwise the project might need to return to square one.
 
