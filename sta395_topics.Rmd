@@ -1,0 +1,64 @@
+---
+title: "Sta-395 - Project Descriptions - Spring 2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Project #1
+
+**Client**: 
+
+Peter Hanson - Associate Professor of Political Science - hansonpe@grinnell.edu
+
+**Description**: 
+
+The Grinnell College National Poll is a nationally-recognized political poll aimed at understanding political attitudes of the American public. Additional background on the poll can be found here: https://www.grinnell.edu/poll/methodology. This project will consist of several related analyses. First, in order to gain familiarity with the poll and its relationship to American politics more broadly, students explore the data to craft a response to the Breitbart article "Poll shows huge democrat bias towards Muslims over Christians". Next, the primary objective of the project will be developing methods for measuring nativism using a battery of questions included in the Oct-19 poll, and later extending them to earlier iterations of the poll to explore associations with other attitudes that weren't measured in the Oct-19 poll. This will require a mixture of background political reading in the area of nativism and methodological reading on statistical methods related to latent variable modeling.  The project aims to provide a suitable model and set of results accompanied by an article written for a general audience that may be published on the DASIL website.
+
+**Data**:
+
+Three waves of the poll (Sept 2018, Nov 2018, Oct 2019), each containing roughly 1000 observations and 100 variables.
+
+## Project #2 
+
+**Client**: 
+
+Sarah Barks - Director, STEM Career Community - barks@grinnell.edu
+
+**Description**:
+
+Each year, in collaboration with the Center for Careers, Life, and Service (CLS), Grinnell College surveys the current graduating class to learn about their post-graduation plans.  Some public reports, data visualizations, and additional information on these surveys are available here: https://www.grinnell.edu/after-grinnell/cls/about/post-graduation.  However, these existing reports do not fully utilize the wide-range of variables collected as a part of these surveys.  This project seeks to identify under-utilized variables and explore them both descriptively and in relation to other variables of institutional importance.  Some variables of institutional importance include: graduate school selectivity indices, career path satisfaction, CLS utilization, and differential effects by major, gender, ethnicity, and/or other demographic variables.  The project will involve several survey iterations, beginning with the class of 2012 and ending with the class of 2018, each containing slightly different questions and response codes.  Depending on the findings, expanding the data visualizations displayed on the CLS webpage is another potential goal of this project.
+
+**Data**:
+
+Several years of first destination survey responses, each containing roughly 300 observations and 50 variables
+
+## Project #3
+
+**Client**: 
+
+Sarah Barks - Director, STEM Career Community - barks@grinnell.edu
+
+**Description**:
+
+Each year, in collaboration with the Center for Careers, Life, and Service (CLS), Grinnell College surveys the current graduating class to learn about their post-graduation plans. Some public reports, data visualizations, and additional information on these surveys are available here: https://www.grinnell.edu/after-grinnell/cls/about/post-graduation. Unfortunately, the survey alone do not achieve a 100% response rate, a substantial amount of data must be obtained manually via the Linkedin profiles of graduates. This project seeks to help automate data acquisition via Linkedin using web scraping, an act recently deemed legal by the 9th US Court of Appeals: https://www.forbes.com/sites/emmawoollacott/2019/09/10/linkedin-data-scraping-ruled-legal/#236b99d81b54. The scraping tool should be user-friendly such that it can be used in future years. Possible extensions of this project involve developing tools to acquire data on the movement of Grinnell graduates as they progress through their career paths.
+
+**Data**:
+
+The data for this project is to be acquired from LinkedIn by the project team.
+
+## Project #4
+
+**Client**:
+
+Coming soon
+
+**Description**:
+
+Coming soon
+
+**Data**:
+
+Coming soon
