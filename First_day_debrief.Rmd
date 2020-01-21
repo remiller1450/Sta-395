@@ -9,11 +9,38 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ### An Example Solution
 
-```{r}
-## Add graph code here
+```{r, waring = FALSE, message = FALSE}
+## Read data
+data <- read.csv("https://remiller1450.github.io/data/GradAdm.csv")
+
+## Notice the problem
+prop.table(table(data$sex, data$admit), margin = 1) # 23.9% of M but only 19.3% of F are admitted
+
+## Is random chance a possible explanation? (considering this year a representative sample of the school more broadly - other years, etc.)
+chisq.test(table(data$sex, data$admit))  # No, the difference is very unlikely to be due to chance
+
+## But could the other variables be confounding this relationship?
+
+## Notice GPA is a red herring - it doesn't confound the relationship b/w sex and admit
+library(ggplot2)
+ggplot(data, aes(y = un_gpa, x = sex, col = admit)) + geom_boxplot() + facet_wrap(~ dept)
+
+## Dept might be a confounding variable 
+
+## Process data for stacked barcharts
+library(dplyr)
+counts <- group_by(data, sex, admit, dept) %>% summarize(val = n())
+
+## Graphs of choice --->>>
+ggplot(counts, aes(fill=admit, y=val, x=sex)) + 
+    geom_bar(position="fill", stat="identity") + facet_wrap(~ dept)
+
+## Supporting graph explaining the paradox
+ggplot(data, aes(fill=admit, x=sex)) + 
+    geom_bar(position = "stack") + facet_wrap(~ dept)
 ```
 
-> Add text here
+> Although there is a difference in the overall admissions rates of male and female grad school applicants, this difference is explained by the different departments males and females are applying to. Within each department, males and females are admitted at roughly equal rates.  The overall difference is explained by the applicants to the least selective departments (A and B) being nearly exclusively male.
 
 ### Simpson's Paradox
 
