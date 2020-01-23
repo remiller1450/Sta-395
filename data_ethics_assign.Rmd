@@ -1,0 +1,40 @@
+---
+title: "Data Ethics Assignment"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Description
+
+You, along with a randomly assigned group of classmates, will be tasked with presenting and leading a discussion of one of four data ethics case studies developed by Princeton University.  Links to these case studies can be found under "Materials" on the course webpage.
+
+### Presentation
+
+Your presentation should brief (~5 minutes) but comprehensive enough that it effectively conveys the important nuances of the application discussed in your case study. During the presentation you should focus on the *facts of the application* and *avoid interjecting your own opinions* or ethical objections.  You aren't required to use any visual aids (ie: you don't need to use slides/powerpoint) but I do suggest you at least create an outline that can be displayed for the class to refer to during discussion.
+
+### Discussion
+
+Following your presentation, your team will lead a discussion (10-15 minutes) on the ethical challenges of your case study.  During discussion you *may interject your own opinions*.  You are welcome to make use of the embedded discussion questions and/or reflection section of the case study document, but you should be prepared to help guide the class throughout - the idea is that you are the experts on the case study you've presented.
+
+### Evaluation 
+
+Your group will be given a score on the presentation, discussion, and teamwork within your group according to the following guidelines:
+
+- Presentation (5 pts)
+    - Clarity - Did you clearly convey the application described in your case study and ethical challenges it contains? 
+    - Conciseness - Did you avoid being overly verbose, repeating information, and/or sharing irrelevant details? Did your presentation take approximately 5 minutes?
+    - Objectiveness - Did you stick to the facts of your application and avoid interjecting personal opinions?
+- Discussion Lead (10 pts)
+    - Content - Was your group prepared to ask appropriate questions and follow-up with your own critiques or insights? Did you cover the most important aspects of your case study?
+    - Engagement - Was your group able to engage the class with the questions you raised? Or was the discussion "top-down" with your group doing most of the talking?
+    - Professionalism - Did your group come across as prepared, organized, and professional?
+- Teamwork (5 pts)
+    - Balance - Were speaking, presenting, and discussion responses approximately balanced across the members of your group
+    - Coherence - Was everyone in your group sharing a cohesive and consistent message? Or were different group members presenting conflicting information? (On objective elements of the application - it is okay for group members to disagree on ethical issues)
+
+
+You will receive a single score as a team, and the assignment will contribute to the "class participation" portion of your grade.
+
