@@ -1,0 +1,51 @@
+---
+title: "2/13 and 2/20 Goals"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Group #1 (Grinnell Poll)
+
+Goal 1: Further research and better understanding of interviewer effects including how previous studies have approached it. 
+Measured by our ability to present and explain to the class what they are and why we chose our approach.
+
+Goal 2: Create a model to detect for interviewer effects. Present findings and methods to the class and create a document 
+with them.
+
+Goal 3: Create basic tables/visualizations with the weighted poll data. Compare to existing cross tabs on the website to
+ensure correct application of weights. Specifically, focus on the variables related to Nativism.
+
+## Group #2 (CLS)
+
+Goal 1: Identify underutilized variables and variables of interest: measured by created list of variables with groupings
+list will include brief description of why we decided to include the variable and where it might be useful
+identify time frames that we will be working with
+
+Goal 2: Data preprocessing: use knowledge from first goal to work on clean data set 
+
+Goal 3: Set overall objective: build flowchart for stages of achieving objective and general expectations
+be able to present what our goal is
+
+## Group #3 (Drugged driving)
+
+Goal 1: Select which variables to use for analysis, 
+understand their meaning, and explain how we are going to use them to achieve project goals.
+
+Goal 2: Clearly define project goals, as measured by our ability to present on said goals.
+
+Goal 3: Match up basic eye tracking data to existing events, as a first step in data analysis.
+
+## Group #4 (Pueblo zoo)
+
+Goal 1: Explore potential association between the dogs' behavior with external factors such as weather , temperature, events, and food measured by the creation of more visualizations. 
+
+Goal 2: Inform the procedure of cleaning the data to our client measured by the creation of an R markdown file
+
+Goal 3: Fullfill our client's request measured by the creation of : 
+	a plot of frequency of inactive behaviors based on 6months interval
+	a barplot that displays the distributions based on the time of day
+
+Goal 4: Investigate the means of creating the program measured by the ability to articulate the pros, cons, and alternative means.

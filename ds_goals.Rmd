@@ -1,0 +1,81 @@
+---
+title: "Guidelines for Goal Setting"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Goals vs. To-do lists
+
+Not everything you do for your project will fall within the scope of a goal.  For example:
+
+> Schedule a meeting with client
+
+Isn't a goal, it's simply something that you need to do as part your project's workflow.  In contrast, goals are specific aims that will move your project forward in a tangible way.  
+
+### Objectives and Key Results (OKR) for Goal Setting
+
+In order to facilitate successful goal setting, I encourage your group to adopt the "Objectives and Key Results" (OKR) framework.  Many major companies, including: Google, Intel, Spotify, Twitter, Walmart, Target, and others utilize this framework.
+
+Some reasons for using OKR are:
+
+1) Alignment - every team member should be going in the same direction with the proper priorities and expectations
+2) Simplicity - OKR goals are simple to create and understand, the framework is content neutral and can be applied to nearly any project
+
+### Components of an OKR
+
+As the name suggests, any OKR has two components:
+
+1) Objective - a qualitative description of what you'd like to achieve
+2) Key Results - a set of metrics, standards, or products by which you can measure progress towards an objective
+
+Very often you can craft OKRs using the following template:
+
+> I will \_ as measured by \_
+
+In many cases an objective will have several key results. Some examples:
+
+> I will explore the active animal behaviors as measured by the construction of at least one univariate graph illustrating possible categories and frequencies, and the creation of a transition matrix displaying the frequencies of how often each behavior leads to another.
+
+or
+
+> I will understand political nativism as measured by: my ability to identify questions in Grinnell National Poll that relate to nativism, my ability to discuss the topic with my client, and the quality of my description of the topic in the next progress briefing.
+
+or 
+
+> I will identify variables in the first destination survey that are underutilized as measured by completion of a spreadsheet documenting the presence of each variable in the data in each of the published reports.
+
+Plainly speaking, your goals should identify *something you need to do*, along with *a way of knowing when you've done it*.
+
+### Incrementalism 
+
+In this class, your team will report on the progress made towards your goals on a bi-weekly basis.  This means that your goals should be *achievable* within that time frame (under the assumption that each group member is devoting ~9 hours outside of class towards the project each week).
+
+Often you might need to break your larger goals into smaller, more manageable goals. For example, perhaps your ideal goal is:
+
+> I will create a suitable factor analysis model for political nativism as measured by the creation of path diagram, coefficient tables, a written description, and hypothesis testing results illustrating its superiority over competing models. 
+
+It is extremely unlikely this goal can be successfully achieved in the first two weeks of the semester as it requires you to:
+
+- Learn the statistical details of several unfamiliar methods
+- Learn the software/packages used to apply those methods
+- Clean and process your data such that it is formatted correctly for the software/packages
+- Fit and compare several models
+- Produce a substantial amount of presentable materials
+
+Instead you might adopt the incremental goal:
+
+> I will learn the statistical details of factor analysis as measured by the creation of a presentation covering Ch 2 and 3 in "Latent Variable Modeling using R, a step-by-step guide" to be shared at the next progress meeting.
+
+### Advisor Feedback
+
+When providing feedback on another team's goals, you might consider:
+
+- How achievable is the set of goals?
+- How clear/understandable are the set of goals?
+- How do the goals relate to your business understanding of the project?
+- If this were your project and your set of goals, what would you change or add?
+
+

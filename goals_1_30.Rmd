@@ -1,0 +1,46 @@
+---
+title: "1/30 Goals"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Group #1
+
+
+Goal 1: Basic Understanding of how polling works. Measured by our ability to define the key elements of methodology, specifically that of the Grinnell Poll.
+
+Goal 2: Firm grasp of Nativism. Measured by the completion of a definition/description of Nativism to show to Prof. Hansen at our meeting.
+
+Goal 3: Come up with a list of questions that we believe are relevant to Nativism. Measured by completing a list for the meeting
+
+
+### Group #2
+
+Goal 1: Understanding Data: identify questions about differences in surveys between years identify potential problems
+define every variable in the data set and create data dictionary
+
+Goal 2: Data Preprocessing: begin to combine data from different years  look into changing some category groupings
+
+Goal 3?: Identify Underutilized Variables and Questions of Interest: create list of variables of interest (through client meeting and looking at previous visualizations) discussing variables of interest in briefing or client meeting
+
+### Group #3
+
+Goal 1: Set up developmental enviorments. (libraries, languages, some IDE) Measure it by being able to run sumple example porgams on our laptops. 
+
+Goal 2: Start learning python web scraping (Selenium). Measure it by ability to write simple scraping programs-- Anotate code.
+
+Goal 3: Learn about differnet scraping methods, scraping diffulty mitigation. Measure it my being able to articulate what it takes to work around it -- include some examples. 
+
+
+### Group #4
+
+Goal 1: Gain general knowledge about painted African dogs, measured by a presentation tothe class on the dogs.
+
+Goal 2: Attempt to answer our client's question on how dogs are spending their day by creating a visualization.
+
+Goal 3: Attempt to answer our client's question on how often dogs' behaviors are categorized as "other" by creating a visualization. We will present this to the client.
+
+Goal 4: Understand the data and what the various variables mean, measued by the creation of a data dictionary.

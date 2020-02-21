@@ -1,0 +1,36 @@
+---
+title: "Peer Review Guidelines"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+In this assignment you will write a one paragraph (4-7 sentences) reflection addressing each of the prompts (1-3) described in the sections below.  You should type your reflection, separating it into four sections.  The first 3 sections should each contain a single paragraph, and the last section should contain point allocations.  Upon completion, submit a single document via email to Prof. Miller.  The contribution of this assignment to your grade will come from the overall quality of your responses to prompts 1-3, and the scores you provide in section 4 will contribute to your team member's grades. 
+
+### 1. Progress on the Project
+
+Reflect upon your team's progress up until this point in the course.  Focus on the *efficiency* of your group, do not get distracted reflecting on specific obstacles or successes pertaining to the project itself. Instead, you might discuss how *group dynamics* helped or hindered your groups response to certain obstacles, or how group dynamics contributed towards successes of your group.  In this section you should specifically mention each member of your team, including yourself.
+
+### 2. Team Member Roles
+
+Reflect upon the current role of each group member as you see it. Focus on the *types of tasks* that each group member gravitates towards and/or the types of tasks that they tend to avoid.  In this section you should comment on the *reliability* of each group member, addressing whether you believe they are spending the required 9 hours and 20 minutes each week on the project, describing how you think they are spending this time, and commenting on how effective you think they've been with their time.  In this section you should specifically mention each member of your team, including yourself.
+
+### 3. Areas of Improvement
+
+Describe *at least two* ways in which team can improve group dynamics to better advance your project. Try to be as detailed as possible.
+
+### 4. Individual Contributions
+
+After responding to the prompts 1-3, distribute 100 points across your team based upon your personal interpretation of each individual's contributions to the project. For example, if Amy believes she has done most of the work, that Bob has been diligent but lacks expertise, and Carla has not been very reliable but has done a few things, then Amy may give the scores: Amy - 66, Bob - 22, Carla - 12.
+
+Arrange these scores in the format shown below, making certain that $X + Y + Z = 100$.
+
+1) Your Name - $X$
+2) Team Member #1 - $Y$
+3) Team Member #2 - $Z$
+
+Please take this allocation *very seriously*, it will directly influence the grades of your team members.  The points you assign *will never be shared* with your team members, and the scores that result from them *will not be entered* into the gradebook displayed on p-web until after the semester has ended.
+
