@@ -1,0 +1,48 @@
+---
+title: "2/27 and 3/5 Goals"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Group #1 (Grinnell National Poll)
+
+Goal 1: Complete analysis of Interviewer effects. Measured by completion and presentation of final outlier tests that determine if there is evidence of interviewer effects.
+
+Goal 2: Create a presentation of methods and findings of this analysis to show to Professor Hanson.
+
+Goal 3: Moving on to our next project, our third goal is to create a model to measure Nativism in the Grinnell Poll based on a battery of questions from November 2018. Measured by our ability to present this model to the class.
+
+Goal 4: Have another meeting with our client to finalize the direction of our next steps. Measured by presentation of clear next steps to the class.
+
+
+
+## Group #2 (CLS)
+
+Goal 1: Data preparation (data set should be completely clean, accurate, ready for analysis). Measured by standardized textual response, presenting data cleaning process, data will be ready for analysis
+
+Goal 2: Examine how CLS has been working for students. Measured by stating objective clearly and confirming it with our client. Understand how relevant variables are formatted in data set, stratify using possible confounding variables, exploring dataset visually in preparation for formal modeling
+
+
+## Group #3 (Drugged Driving)
+
+
+Goal 1: Figure out what values of the variables mean, and how tasks are defined to be completed. We will do this using Tim Brown, and maybe inferring from the data. Specifically, understanding the mapping of object index to an understandable object name, and the gaze rotation variables.
+
+Goal 2: Create and interpret visualizations showing what the subjects are looking at at each point in time, and showing how these differ during certain tasks.
+
+Goal 3: Automate R scripts, to work over the entire dataset rather than on specific data files. This will be shown by our scripts.
+
+
+
+## Group #4 (Pueblo Zoo)
+
+Goal 1: Clean and explore the cattle dataset and create visualizations to answer our client's questions, measured by a presentation of visuals in class and being able to articulate the differences between the cattle and dogs datasets.
+
+Goal 2: Ask for dataset for another animal and answer client's questions about that animal, pending the reply from client, measured by a presentation of visuals in class.
+
+Goal 3: Compare the differences in structure between datasets of various animals that we currently have, measured by the ability to articulate the differences during the debriefing.
+
+Goal 4: Create a prototype R Shiny program for only the Painted African Dogs and cattles, measured by a live demo during the next debriefing.

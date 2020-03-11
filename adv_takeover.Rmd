@@ -1,0 +1,42 @@
+---
+title: "Adviser Team Take-over Week"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+During the 8-day timeframe spanning Friday 4/3 to Friday 4/10 each adviser team will fully take-over the project that they had previously been advising.  This process will begin with a goal setting session on Thursday 4/2 and will end with a written memo due on Monday 4/13, and presentations on Tuesday 4/14 or Thursday 4/16.  The purpose of this activity is: 1) expose you to a different project with different data structures and challenges, 2) motivate each group to engage in good code sharing and data documentation practices, 3) deepen your capacity to provide thoughtful feedback to the group you've been advising.
+
+### Timeline
+
+- Thursday 4/2 - all groups will plan *one goal* for the adviser team to accomplish over the next week
+- Friday 4/3 - Friday 4/10 - adviser teams are expected to work together towards their goal during this time
+- Monday 4/13 - adviser take-over memo is due (details below)
+- Tuesday 4/14 - presentations for two adviser groups, followed by goal planning for the corresponding project teams
+- Thursday 4/16 - presentations for two adviser groups, followed by goal planning for the corresponding project teams
+
+### Take-over Memo
+
+The take-over memo is a brief, written document (no more than 3 pages, single-spaced) that addresses the following aspects of the group's project (the one you took over):
+
+1. A statement addressing the accessibility of their data, documentation, code, and prior results - think about how quickly you were able to jump in and make progress towards your goal (while also considering the complexity of their topic).
+2. A summary and qualitative assessment of the progress you estimate the group had made up until this point in the semester - think about how quickly you were able to make progress towards your goal relative to what the group has already done.
+3. A summary of your contributions to the project - reflect on how successful you were in achieving your goal, as well as how the role of this contribution in the project more broadly.
+4. A detailed discussion of your recommendations for group over the remaining few weeks of the semester - think about what you'd be doing if you were tasked with working on their project for the remainder of the semester.
+
+### Presentation
+
+The presentation should last approximately 20 minutes, and should focus on the following items:
+
+1. A description of how the group you took over organized their data, code, and previous work - highlighting things you found to be helpful, or making suggestions on areas of improvement.
+2. A restatement of your goal during take-over week, followed by a detailed overview of your approach to that goal and the progress you made
+3. A detailed discussion of your recommendations for group over the remaining few weeks of the semester - think about what you'd be doing if you were tasked with finishing out their project.
+
+Remember that this is a presentation, so try to use appropriate visual aids whenever possible.
+
+### Evaluation
+
+- Each adviser team will receive a single, group score for their team's work as conveyed in their take-over memo and presentation.  This score will be based upon three equally weighted sub-scores reflecting: the quality and content of the take-over memo, the quality and content of the presentation, to extent of your contributions to the team's project.
+- Project teams will receive a default participation score of 10/10 unless there are clear shortcomings in their interactions with their adviser team (ie: not sharing materials in an appropriate and timely manner, not answering questions or providing conflicting information, etc.)
