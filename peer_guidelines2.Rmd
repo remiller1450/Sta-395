@@ -1,0 +1,40 @@
+---
+title: "Peer Review Guidelines #2"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+In this assignment you will write a one paragraph (4-7 sentences) reflection addressing each of the prompts (1-3) described in the sections below.  You should type your reflection, separating it into four sections.  The first 3 sections should each contain a single paragraph, and the last section should contain point allocations.  
+
+Upon completion, submit a single document via email to Prof. Miller.  The contribution of this assignment to your grade will come from the overall quality of your responses to prompts 1-3, and the scores you provide in section 4 will contribute to your team member's grades. As a reminder, this information will never be shared with your group members, who will receive a single personal growth and participation score at the end of the semester that includes this information as one of its many components.
+
+In this reflection you should focus on **changes since the first peer review**, which took place on Feb 24th.
+
+### 1. Progress on the Project
+
+Reflect upon your team's progress up until this point in the course.  Focus on the *efficiency* of your group, do not get distracted reflecting on specific obstacles or successes pertaining to the project itself. In particular, have you done anything differently since the last peer review that has improved your team's ability to make progress? Are there things you haven't done that you wish you did? Are there things you've started doing that have proven to be counter-productive?
+
+### 2. Team Member Roles
+
+Reflect upon the current role of each group member as you see it, as well as how this role as changed or evolved since the start of the project. Focus on the growth that you've seen each team member experience, as well as their reliability and consistency in committing the expect 9 hours and 20 minutes weekly to your team. In this section you should explicitly mention each member of your team, including yourself.
+
+### 3. Plans to Finish the Project
+
+Describe *at least two* challenges your group will face in finishing up the project, as well as your strategy for addressing them.  Try to pay attention to the role of group dynamics in your approach to these challenges, and be as detailed as possible in your description.
+
+### 4. Individual Contributions
+
+After responding to the prompts 1-3, distribute 100 points across your team based upon your personal interpretation of everyone's contributions to the project. For example, if Amy believes she has done most of the work, that Bob has been diligent but lacks expertise, and Carla has not been very reliable but has done a few things, then Amy may give the scores: Amy - 66, Bob - 22, Carla - 12.
+
+Arrange these scores in the format shown below, making certain that $X + Y + Z = 100$.
+
+1) Your Name - $X$
+2) Team Member #1 - $Y$
+3) Team Member #2 - $Z$
+
+Please take this allocation *very seriously*, it will directly influence the grades of your team members.  The points you assign *will never be shared* with your team members.
+

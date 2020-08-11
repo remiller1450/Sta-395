@@ -1,0 +1,67 @@
+---
+title: "Final Products"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+This page contains brief description of each final product and an outline of the aspects of that product that will be graded.
+
+Not all of the listed components are directly relevant to every project, so if a component doesn't appear to fit with your project you may disregard it.
+
+### Executive Summary (due 5/1 at 11:59pm CST)
+
+**Description**: The executive summary is a two-page paper written for a public (non-technical) audience that describes the problem/question, data, assumptions, recommendations/insights, and the final data product.  It is designed to be short and to-the-point.
+
+**Graded Components**:
+
+- Clear problem/project statement 
+- Clear description of the data product 
+- Clear summary statement of the assumptions/simplifications/data manipulation 
+- Description of data product validity and applicability 
+- Recommendations on use and interpretation of data product 
+- Writing style Arrangement and development (organization and storytelling) 
+- Editing and professionalism
+
+### Oral Presentations (5/5 - times TBD)
+
+**Description**:  The final presentation will be a 20-minute oral presentation describing the complete project.  It differs from a progress briefing in that you should fully describe your project from start to finish.  You should target a technically literate audience *outside of this class*, meaning you should not assume your audience is familiar with your project topic or any of the details you've previously presented in progress briefings.
+
+**Graded Components**:
+
+- Background information and problem/project description 
+- Audience appropriate description of the data product or final results
+- Description and explanation of assumptions and choices involved in the data product or final results
+- Slides: organization and presentation 
+- Teamwork: all team members must contribute cohesively 
+- Ability to address questions 
+
+### Deliverable (5/8 at 11:59pm CST)
+
+**Description**: Your deliverable is the tool, model, or report developed for the client ultimately delivered to the client. It should contain documented source code and a user guide (if applicable).
+
+**Graded Components**:
+
+- Completed product (app, model, visualizations, report, etc.)
+- Final code utilized to create the product - this should not be all your code from the semester, it should be a minimally sufficient set of code necessary to go from the raw data you received at the start of the semester to your final product. 
+- Documentation - a user guide (if applicable), and any special instructions on how to use or interpret your code.
+
+### Technical Report (5/15 at 5:00pm CST)
+
+**Description**: A comprehensive report (15 pages maximum) written for a technical audience (think readers of a subject-specific journal) that thoroughly documents your project. Please note that even if your deliverable was a report this is a very different document, it should contain far greater technical detail than would typically be given to client.
+
+**Graded Components**:
+
+- Complete background information and problem context/project statement 
+- Complete statement of all assumptions/simplification/data cleaning 
+- Detailed description of data feature engineering, model development, etc. 
+- Full description of the project deliverable
+- Recommendations on use and interpretation of the project deliverable
+- Strengths and weaknesses of the project deliverable 
+- Conclusions, recommendations, interpretations  
+- Future directions for the project including possible improvements 
+- Writing style and clarity
+- Arrangement and development (organization and storytelling) 
+- Editing and professionalism (including references if applicable)
